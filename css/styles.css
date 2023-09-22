@@ -7,6 +7,7 @@
   --font-size: 1rem;
   --padding-size: 1.5rem;
   --gap-size: 1rem;
+  --size-image: 15rem;
 }
 
 * {
@@ -69,7 +70,7 @@ body {
 
 .header__container-nav {
   width: 90%;
-  font-size: 1rem;
+  font-size: var(--font-size);
 }
 
 .header__title {
@@ -94,6 +95,10 @@ body {
   font-weight: lighter;
 }
 
+.title__border {
+  border-bottom: 0.2rem solid var(--tertiary-color);
+}
+
 .main__section .section__container-data {
   position: relative;
   display: flex;
@@ -111,6 +116,7 @@ body {
 
 .section__title {
   width: 90%;
+  max-width: 45rem;
   font-size: 2.5rem;
   line-height: 3rem;
   font-family: var(--family-heading);
@@ -121,7 +127,7 @@ body {
 .section__link {
   padding: 1rem 1.5rem;
   background-color: var(--tertiary-color);
-  font-size: 1rem;
+  font-size: var(--font-size);
   font-weight: bold;
   color: var(--secondary-color);
 }
@@ -129,8 +135,10 @@ body {
 .section__link + .section__figure {
   position: absolute;
   bottom: -7.5rem;
-  width: 15rem;
-  height: 15rem;
+  width: var(--size-image);
+  height: var(--size-image);
+  transform: rotateZ(18deg);
+  transform: scaleX(1.2);
 }
 
 .section__container-data + .section__list {
@@ -143,6 +151,7 @@ body {
 
 .section__container-data + .section__list .section__item {
   width: 90%;
+  max-width: 25rem;
 }
 
 .section__article {
@@ -187,8 +196,8 @@ body {
   position: relative;
   top: 3rem;
   z-index: -10;
-  width: 15rem;
-  height: 15rem;
+  width: var(--size-image);
+  height: var(--size-image);
 }
 
 .main__section--apply > .section__container-data {
@@ -197,6 +206,7 @@ body {
   gap: var(--gap-size);
   align-items: center;
   width: 90%;
+  max-width: 43.75rem;
   padding: var(--padding-size);
   background-color: var(--secondary-color);
 }

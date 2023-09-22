@@ -1,0 +1,62 @@
+.main__section .section__container-data {
+  padding-top: 4.9rem;
+  padding-bottom: 19.6rem;
+}
+
+.section__container-data + .section__list {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.section__title {
+  font-size: 5rem;
+  line-height: 5.5rem;
+}
+
+.section__link + .section__figure {
+  bottom: -12rem;
+  width: 28rem;
+  height: 28rem;
+}
+
+.section__container-data + .section__list {
+  padding-top: 20rem;
+}
+
+.section__article {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__title {
+  margin-top: 1rem;
+}
+
+.article__description {
+  text-align: center;
+}
+
+.main__section--apply {
+  padding-top: 0;
+}
+
+.main__section .section__container-data::after {
+  top: 3rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+.main__section .section__container-data::before {
+  top: 5rem;
+  right: -4rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+@media screen and (width >= 1260px) {
+  .main__section--apply > .section__figure {
+    left: -29rem;
+    top: 13rem;
+  }
+}

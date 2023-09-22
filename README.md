@@ -1,7 +1,7 @@
 # WORKIT
 
 Reto de Frontend Mentor, realizado con HTML semántico, BEM(block element modify) y CSS. Es totalmente responsive y tiene transiciones suaves.
-Se uso links de css con media queries para evitar descargar css innecesario para dispositivos pequeños.
+Se uso links de css con media queries para evitar descargar css innecesario para dispositivos pequeños. Para su contrucción su uso el enfoque de diseño mobile first.
 
 ## Características
 
@@ -9,6 +9,7 @@ Se uso links de css con media queries para evitar descargar css innecesario para
 - Semántico
 - HTML5
 - CSS3
+- Mobile First
 - Transiciones
 
 ## Enlace de la pagina web

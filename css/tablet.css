@@ -103,6 +103,10 @@
   align-self: flex-start;
 }
 
+.section__link {
+  border: 0.2rem solid var(--tertiary-color);
+}
+
 .main__section--apply > .section__container-data::after {
   content: "";
   position: absolute;

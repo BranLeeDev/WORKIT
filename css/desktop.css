@@ -1,3 +1,11 @@
+.header__link {
+  transition: color 0.3s ease-in-out;
+}
+
+.header__link:hover {
+  color: var(--tertiary-color);
+}
+
 .main__section .section__container-data {
   padding-top: 4.9rem;
   padding-bottom: 19.6rem;
@@ -12,6 +20,7 @@
 .section__title {
   font-size: 5rem;
   line-height: 5.5rem;
+  max-width: 40rem;
 }
 
 .section__link + .section__figure {
@@ -27,6 +36,17 @@
 .section__article {
   display: flex;
   flex-direction: column;
+}
+
+.section__link {
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+.section__link:hover {
+  background: transparent;
+  border: 0.2rem solid var(--tertiary-color);
+  color: var(--tertiary-color);
 }
 
 .article__title {
